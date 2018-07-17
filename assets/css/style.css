@@ -154,6 +154,16 @@ p {
 
 /* START CONTACT PAGE */
 
+.form-text{
+  font-size: 12px;
+}
+.text-muted{
+  color:rgb(55, 56, 56)
+}
+.btn-default{
+  background-color:#4aaaa5;
+  color:#ffffff;
+}
 
 
 /*END CONTACT PAGE*/
