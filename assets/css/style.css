@@ -1,0 +1,128 @@
+/* PAGE */
+
+* {
+  box-sizing: border-box;
+}
+
+body{
+  background: url("../images/extra_clean_paper_@2X.png");
+  color: #777777;
+  font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+  font-size: 18px;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+/* PAGE */
+
+
+/* START NAV */
+#masthead {
+  background-color: #fff;
+  border-bottom:3px solid #cccccc;
+}
+
+#logo {
+  padding-top: 30px;
+  padding-bottom: 10px;
+  height: 80px;
+  margin-top:5px;
+  font-size:28px;
+  font-weight: bold;
+  font-family: Georgia, Times, "Times New Roman", serif;
+  font-weight:bold;
+  text-align:center;
+  color: #ffffff;
+  background: #4aaaa5;
+}
+
+.navbar-right{
+  padding-top: 15px;
+  padding-right: 35px;
+  font-family: 'Arial';
+}
+
+/* still need to fix border height*/
+ul li a {
+  text-decoration: none;
+  color: #999999;
+  border-left: 0.5px solid #dddddd;
+  margin-top:10px;
+  line-height: 0px;
+  font-size: 16px;
+}
+
+nav ul li:first-child a {
+  border-left:0;
+}
+
+/*--------NAV END----------*/
+
+/* ABOUT SECTION & SIDEBAR */
+
+.main-section {
+  width:100%;
+  margin-top: 33px;
+  background-color: #ffffff;
+  padding: 30px;
+  border: 1.5px solid #dddddd;
+}
+
+h2 {
+  font-family: 'Georgia', Times, 'Times New Roman', serif;
+  font-weight:bold;
+  color:#4aaaa5;
+  margin-bottom:30px;
+  padding-bottom:12px;
+  font-size:25px;
+  border-bottom:2px solid #dddddd;
+}
+
+#bio-image {
+  padding-bottom:25px;
+  height:162px;
+  width: 200px;
+  float: left;
+  margin-right: 20px;
+  margin-top: 20px;
+}
+
+p {
+  font-size: 18px;
+  font-weight:lighter;
+  color: #777777;
+  line-height: 30px;
+  padding-top: 15px;
+}
+
+.sidebar {
+  width:100%;
+  border:1.5px solid #dddddd;
+  background-color: #ffffff;
+  margin-top: 33px;
+  padding: 30px;
+}
+
+/* END ABOUT SECTION & SIDEBAR */
+
+/* START FOOTER*/
+
+.footer-section {
+  text-align:center;
+  padding-top: 20px;
+  font-size: 14px;
+  background: #666666;
+  border-top: 8px solid #4aaaa5;
+  margin-top:150px;
+}
+
+.footertext{
+  color:#dddddd;
+}
+
+/* END FOOTER */
+
+/* PORTFOLIO SECTION */
